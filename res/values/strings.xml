@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Will Memo</string>
+    <string name="insert">Insert Success</string>
+    <string name="update">Update Success</string>
+    <string name="no_function">Can not find the function!</string>
+	<string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    
+	<string name="notification_1">You have%1$d time up event,touch to check</string>
+    <string name="notification_2">You have%1$d red event, %2$d time up event,touch to check</string>
+    <string name="notification_3">You have%1$d red event,touch to check</string>
+    
+    <string name="setting">Setting</string>
+    <string name="setting_notiy_title">Notice</string>
+    <string name="setting_switch_title">Notice Open or not</string>
+    <string name="setting_switch_summary"></string>
+    <string name="setting_time_title">Notice time</string>
+    <string name="setting_overtime_title">Time up event</string>
+	<string name="setting_overtime_summary">Notice the time-up events</string>
+	<string name="setting_help_title">Help</string>
+	<string name="setting_readme_title">Readme</string>
+	<string name="setting_about">About</string>
+	<string name="setting_report">Report</string>
+	
+	<string name="edit_text_hint">Touch to write</string>    
+	
+    <string name="about_copyright">Copyright ® 2012 Will Team. All Rights Reserved</string>
+    <string name="about_info">Will工作室版权所有</string>
+<!--     <string name="about_version"></string> -->
+</resources>

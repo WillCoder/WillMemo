@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+<!--   	<LinearLayout  -->
+<!--   	    android:layout_width="fill_parent" -->
+<!--   	    android:layout_height="50dp" -->
+<!--   	    android:layout_weight="0" -->
+<!--   	    android:background="@drawable/ab_stacked_transparent_light_holo"> -->
+<!--   	</LinearLayout> -->
+
+
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		  android:layout_height="fill_parent"
+	    		  android:background="@drawable/background_1"
+				  android:orientation="vertical">
+		 <LinearLayout
+	    		   android:layout_width="fill_parent"
+	    		   android:layout_height="50dp"
+	    		   android:layout_weight="0"
+	    		   android:background="@drawable/cab_background_top_holo_light">
+	    		<LinearLayout 
+			 	    android:layout_width="wrap_content"
+		    		android:layout_height="fill_parent"
+		    		android:layout_weight="1"
+		    		android:gravity="left|center_vertical"
+		    		android:orientation="horizontal">
+		    	<ImageView
+			 	    	android:layout_width="35dp"
+			 	    	android:layout_height="35dp"
+			 	    	android:layout_marginLeft="10dp"
+			 	    	android:layout_marginRight="10dp"
+			 	    	android:src="@drawable/icon"/>
+		    	<TextView 
+		    	    	android:layout_width="fill_parent"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:gravity="center_vertical"
+			 	    	android:text="@string/app_name"
+			 	    	android:textSize="20dp"
+			 	    	android:textColor="#FF000000"/>
+	    	</LinearLayout>
+		 </LinearLayout>
+	     <ListView android:id="@+id/mylist"
+	               android:layout_width="fill_parent"
+	               android:layout_height="match_parent"
+
+	               android:layout_weight="3"
+	               android:drawSelectorOnTop="false"
+	               android:transcriptMode="disabled"
+	               android:divider="@null"/>
+		 <LinearLayout
+	     		   android:layout_width="fill_parent"
+	  			   android:layout_height="70dp"
+	  			   android:gravity="bottom"
+	  			   android:layout_weight="0"
+	  			   android:background="@drawable/list_selector_background_disabled_light">
+	     <ImageButton 
+	     		   android:layout_height="fill_parent" 
+	     		   android:id="@+id/AddButton" 
+	     		   android:src="@drawable/ic_menu_add" 
+	     		   android:layout_width="fill_parent"
+	     		   android:layout_weight="1"
+	     		   android:background="@drawable/btn_add_memo"/>
+<!-- 	     <ImageButton  -->
+<!-- 	     		   android:layout_height="fill_parent"  -->
+<!-- 	     		   android:id="@+id/DeleteButton"  -->
+<!-- 	     		   android:src="@drawable/ic_menu_delete"  -->
+<!-- 	     		   android:layout_width="100dp" -->
+<!-- 	     		   android:visibility="gone" -->
+<!-- 	     		   android:layout_weight="0"/> -->
+    	</LinearLayout>
+	</LinearLayout>
+	
+<!-- 	<LinearLayout android:id="@+id/list_bar_top" -->
+<!-- 	    		  android:layout_width="fill_parent" -->
+<!-- 	    		  android:layout_height="60dp" -->
+<!-- 	    		  android:visibility="gone" -->
+<!-- 	    		  android:background="@drawable/cab_background_top_holo_light"> -->
+<!-- 	</LinearLayout> -->
+	<LinearLayout android:id="@+id/list_bar_bottom"
+	    		  android:layout_width="fill_parent"
+	    		  android:layout_height="50dp"
+	    		  android:layout_gravity="top"
+	    		  android:gravity="right"
+	    		  android:visibility="gone"
+	    		  android:background="@drawable/cab_background_top_holo_dark"
+	    		  android:orientation="horizontal">
+		 	<LinearLayout 
+			 	    android:layout_width="wrap_content"
+		    		android:layout_height="fill_parent"
+		    		android:layout_weight="1"
+		    		android:gravity="left|center_vertical"
+		    		android:orientation="horizontal">
+		    	<ImageView
+			 	    	android:layout_width="35dp"
+			 	    	android:layout_height="35dp"
+			 	    	android:layout_marginLeft="10dp"
+			 	    	android:layout_marginRight="10dp"
+			 	    	android:src="@drawable/icon"/>
+		    	<TextView 
+		    	    	android:layout_width="fill_parent"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:gravity="center_vertical"
+			 	    	android:text="@string/app_name"
+			 	    	android:textSize="20dp"
+			 	    	android:textColor="#FFFFFFFF"/>
+	    	</LinearLayout>
+	    	<LinearLayout 
+			 	    android:layout_width="wrap_content"
+		    		android:layout_height="fill_parent"
+		    		android:layout_weight="1"
+		    		android:gravity="right|center_vertical"
+		    		android:orientation="horizontal">
+<!-- 		    	<ImageView -->
+<!-- 			 	    	android:layout_width="wrap_content" -->
+<!-- 			 	    	android:layout_height="fill_parent" -->
+<!-- 			 	    	android:layout_weight="0" -->
+<!-- 			 	    	android:layout_marginTop="10dp" -->
+<!-- 			 	    	android:layout_marginBottom="10dp" -->
+<!-- 			 	    	android:src="@drawable/status_bar_item_app_background_normal"/> -->
+			 	<Button android:id="@+id/select_all_btn"
+			 	    	android:layout_width="match_parent"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:layout_weight="1"
+			 	    	android:text="全选"
+			 	    	android:textSize="15dp"
+			 	    	android:textColor="#AFFFFFFF"
+			     		android:background="@drawable/title_btn_background"/>
+			 	<ImageView
+			 	    	android:layout_width="wrap_content"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:layout_marginTop="10dp"
+			 	    	android:layout_marginBottom="10dp"
+			 	    	android:src="@drawable/status_bar_item_app_background_normal"/>
+			 	<Button android:id="@+id/cancel_all_btn"
+			 	    	android:layout_width="match_parent"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:layout_weight="1"
+			 	    	android:text="反选"
+			 	    	android:textSize="15dp"
+			 	    	android:textColor="#AFFFFFFF"
+			     		android:background="@drawable/title_btn_background"/>
+			 	<ImageView
+			 	    	android:layout_width="wrap_content"
+			 	    	android:layout_height="fill_parent"
+			 	    	android:layout_marginTop="10dp"
+			 	    	android:layout_marginBottom="10dp"
+			 	    	android:src="@drawable/status_bar_item_app_background_normal"/>
+			 	<ImageButton 
+			 	    	android:id="@+id/DeleteButton" 
+			 	    	android:layout_width="60dp"
+			     		android:layout_height="fill_parent"
+			     		android:src="@drawable/ic_menu_delete"
+			     		android:background="@drawable/title_btn_background"/>
+		 	</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

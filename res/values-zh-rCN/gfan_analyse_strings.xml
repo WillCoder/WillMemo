@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="TCEmptyFbNotAllowed">请输入您的反馈内容</string>
+	<string name="TCFeedbackTitle">意见反馈</string>
+	<string name="TCFeedbackConversationTitle">反馈问题</string>
+	<string name="TCFeedbackContactHint">电子邮箱或QQ(非必填)</string>
+	<string name="TCFeedbackContentHint">请填写您遇到的问题或意见</string>
+	<string name="TCFeedbackSubmmit">提交</string>
+	<string name="TCFeedbackCancel">取消</string>	
+	<string name="TCDeleteThread">删除反馈</string>
+	<string name="TCFeedbackAlreadySubmit">反馈已提交</string>
+	<string name="TCFeedbackCannotEmpty">反馈内容不能为空</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:fillViewport="true"
+    android:layout_height="fill_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gfan_analyse_rootId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#EFEFEF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/gfan_feedback_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/gfan_analyse_feedback_bar_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dip"
+            android:text="@string/TCFeedbackTitle"
+            android:textColor="#565656"
+            android:textSize="22dip" />
+
+        <EditText
+            android:id="@+id/gfan_feedback_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:layout_marginTop="7dip"
+            android:layout_weight="1.0"
+            android:gravity="top"
+            android:hint="@string/TCEmptyFbNotAllowed"
+            android:maxEms="10"
+            android:maxLength="400"
+            android:minEms="10"
+            android:paddingLeft="9dip"
+            android:paddingTop="10dip"
+            android:textColor="#737373" />
+
+        <EditText
+            android:id="@+id/gfan_feedback_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:layout_marginTop="7dip"
+            android:gravity="top"
+            android:hint="@string/TCFeedbackContactHint"
+            android:maxEms="10"
+            android:maxLength="30"
+            android:minEms="10"
+            android:paddingLeft="9dip"
+            android:paddingRight="0dp"
+            android:paddingTop="10dip"
+            android:singleLine="true"
+            android:textColor="#737373" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gfan_analyse_feedback_cancel"
+                android:layout_width="70dip"
+                android:layout_height="43dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="9dip"
+                android:background="@drawable/gfan_analyse_submit_selector"
+                android:gravity="center"
+                android:text="@string/TCFeedbackCancel"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/gfan_analyse_feedback_submit"
+                android:layout_width="70dp"
+                android:layout_height="43dip"
+                android:layout_marginRight="7dip"
+                android:layout_toLeftOf="@id/gfan_analyse_feedback_cancel"
+                android:background="@drawable/gfan_analyse_submit_selector"
+                android:gravity="center"
+                android:text="@string/TCFeedbackSubmmit"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

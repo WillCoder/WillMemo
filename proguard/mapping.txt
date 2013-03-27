@@ -1,0 +1,441 @@
+com.gfan.feedback.SendFeedback -> com.gfan.feedback.SendFeedback:
+    android.widget.TextView a -> a
+    android.widget.EditText b -> b
+    android.widget.EditText c -> c
+    android.widget.Button d -> d
+    android.widget.Button e -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    int a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context) -> a
+    android.widget.EditText a(com.gfan.feedback.SendFeedback) -> a
+    android.widget.EditText b(com.gfan.feedback.SendFeedback) -> b
+com.gfan.feedback.a -> com.gfan.feedback.a:
+    com.gfan.feedback.SendFeedback a -> a
+    void onClick(android.view.View) -> onClick
+com.gfan.feedback.b -> com.gfan.feedback.b:
+    com.gfan.feedback.SendFeedback a -> a
+    void onClick(android.view.View) -> onClick
+com.gfan.sdk.statitistics.A -> com.gfan.a.a.a:
+    java.lang.String[] d -> a
+    void a(android.database.sqlite.SQLiteDatabase) -> a
+com.gfan.sdk.statitistics.B -> com.gfan.a.a.b:
+    android.content.Context a -> a
+    com.gfan.sdk.statitistics.a b -> b
+    void run() -> run
+com.gfan.sdk.statitistics.C -> com.gfan.a.a.c:
+com.gfan.sdk.statitistics.D -> com.gfan.a.a.d:
+    void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> process
+com.gfan.sdk.statitistics.E -> com.gfan.a.a.e:
+    java.lang.StringBuffer a -> a
+    void a$3231c38a() -> a
+com.gfan.sdk.statitistics.F -> com.gfan.a.a.f:
+    java.lang.String[] f -> a
+    void a(android.database.sqlite.SQLiteDatabase) -> a
+com.gfan.sdk.statitistics.G -> com.gfan.a.a.g:
+    java.io.InputStream getContent() -> getContent
+    long getContentLength() -> getContentLength
+com.gfan.sdk.statitistics.GFAgent -> com.gfan.a.a.h:
+    java.lang.String f -> a
+    boolean g -> b
+    boolean h -> c
+    java.lang.ref.WeakReference y -> e
+    boolean z -> f
+    java.lang.String A -> g
+    java.lang.String B -> h
+    long C -> i
+    int l -> d
+    com.gfan.sdk.statitistics.r H -> j
+    void init(android.content.Context) -> a
+    java.lang.String a(android.os.Bundle,java.lang.String) -> a
+    android.content.Context a() -> a
+    java.lang.String b() -> b
+    void onResume(android.app.Activity) -> a
+    void onPause(android.app.Activity) -> b
+    void b(android.content.Context,java.lang.String,java.lang.String) -> a
+    boolean a(android.content.Context) -> b
+    void a(android.content.Context,boolean) -> a
+    long e(android.content.Context) -> e
+    void d(android.content.Context,long) -> b
+    void e(android.content.Context,long) -> a
+    com.gfan.sdk.statitistics.a.c i(android.content.Context) -> c
+    boolean b(android.os.Message) -> b
+    void a(android.os.Message) -> a
+    void a(java.lang.StringBuilder,java.lang.StackTraceElement[],java.lang.Throwable,int) -> a
+    void d() -> c
+    void onStartFeedbackActivity(android.content.Context) -> d
+    boolean e() -> d
+    void a(java.lang.Throwable) -> a
+com.gfan.sdk.statitistics.H -> com.gfan.a.a.i:
+    java.util.concurrent.ExecutorService a -> a
+    void a(java.lang.Runnable) -> a
+com.gfan.sdk.statitistics.a -> com.gfan.a.a.j:
+    com.gfan.sdk.statitistics.s a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.gfan.sdk.statitistics.a.a -> com.gfan.a.a.a.a:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.b -> com.gfan.a.a.a.b:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    long c -> c
+    java.lang.String d -> d
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.c -> com.gfan.a.a.a.c:
+    int a -> a
+    com.gfan.sdk.statitistics.a.e b -> b
+    com.gfan.sdk.statitistics.a.h c -> c
+    com.gfan.sdk.statitistics.a.b d -> d
+    java.util.List e -> e
+    java.util.List f -> f
+    byte[] g -> g
+    long h -> h
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.d -> com.gfan.a.a.a.d:
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+com.gfan.sdk.statitistics.a.e -> com.gfan.a.a.a.e:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    long c -> c
+    int d -> d
+    boolean e -> e
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.f -> com.gfan.a.a.a.f:
+    double a -> a
+    double b -> b
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.g -> com.gfan.a.a.a.g:
+    java.lang.String a -> a
+    long b -> b
+    int c -> c
+    java.lang.String d -> d
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.h -> com.gfan.a.a.a.h:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    com.gfan.sdk.statitistics.a.f e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    int k -> k
+    java.lang.String l -> l
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.a.i -> com.gfan.a.a.a.i:
+    long a -> a
+    long b -> b
+    long c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.util.List f -> f
+    int g -> g
+    void a(com.gfan.sdk.statitistics.c.a) -> a
+    java.lang.String toString() -> toString
+com.gfan.sdk.statitistics.b -> com.gfan.a.a.k:
+    javax.net.ssl.SSLSocketFactory a -> a
+    java.net.Socket createSocket() -> createSocket
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+com.gfan.sdk.statitistics.c -> com.gfan.a.a.l:
+    android.telephony.TelephonyManager b -> a
+    char[] c -> b
+    void k(android.content.Context) -> g
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String m(android.content.Context) -> h
+    java.lang.String b() -> a
+    java.lang.String d(android.content.Context) -> b
+    boolean a(android.content.Context,java.lang.String) -> a
+    com.gfan.sdk.statitistics.a.f e(android.content.Context) -> c
+    java.lang.String h(android.content.Context) -> d
+    java.lang.String c() -> b
+    java.lang.String d() -> c
+    java.lang.String i(android.content.Context) -> e
+    byte[] a(byte[]) -> a
+    java.lang.String b(byte[]) -> b
+    java.lang.String e() -> d
+    java.lang.String[] j(android.content.Context) -> f
+com.gfan.sdk.statitistics.c.a -> com.gfan.a.a.b.a:
+    byte[] a -> a
+    java.io.OutputStream b -> b
+    com.gfan.sdk.statitistics.c.a a(double) -> a
+    com.gfan.sdk.statitistics.c.a a(int) -> a
+    com.gfan.sdk.statitistics.c.a a(long) -> a
+    com.gfan.sdk.statitistics.c.a a(com.gfan.sdk.statitistics.a.d) -> a
+    com.gfan.sdk.statitistics.c.a a(java.lang.String) -> a
+    com.gfan.sdk.statitistics.c.a b(int) -> b
+    com.gfan.sdk.statitistics.c.a a() -> a
+    com.gfan.sdk.statitistics.c.a b() -> b
+    com.gfan.sdk.statitistics.c.a e(int) -> c
+    com.gfan.sdk.statitistics.c.a c(byte[]) -> a
+    com.gfan.sdk.statitistics.c.a c() -> c
+com.gfan.sdk.statitistics.d -> com.gfan.a.a.m:
+    org.apache.http.HttpResponseInterceptor h -> a
+    org.apache.http.impl.client.DefaultHttpClient a() -> a
+    boolean a(java.lang.String,java.lang.String,java.lang.String,byte[]) -> a
+    boolean a(com.gfan.sdk.statitistics.a.i,java.lang.String,java.lang.String) -> a
+com.gfan.sdk.statitistics.e -> com.gfan.a.a.n:
+com.gfan.sdk.statitistics.f -> com.gfan.a.a.o:
+com.gfan.sdk.statitistics.g -> com.gfan.a.a.p:
+    com.gfan.sdk.statitistics.g a -> a
+    int b -> b
+    android.os.Handler c -> c
+    android.os.HandlerThread d -> d
+    int e -> e
+    boolean g -> f
+    void a() -> d
+    com.gfan.sdk.statitistics.g b() -> a
+    android.os.Handler c() -> b
+    void run() -> run
+    void d() -> c
+    com.gfan.sdk.statitistics.a.i i() -> e
+    void b(com.gfan.sdk.statitistics.a.i) -> a
+    java.lang.String a(java.lang.String,java.lang.String,long) -> a
+com.gfan.sdk.statitistics.h -> com.gfan.a.a.q:
+    java.lang.String[] b -> a
+    void a(android.database.sqlite.SQLiteDatabase) -> a
+com.gfan.sdk.statitistics.i -> com.gfan.a.a.r:
+com.gfan.sdk.statitistics.j -> com.gfan.a.a.s:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    com.gfan.sdk.statitistics.j b -> b
+    com.gfan.sdk.statitistics.j a() -> a
+    java.lang.Thread$UncaughtExceptionHandler b() -> b
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.gfan.sdk.statitistics.k -> com.gfan.a.a.t:
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+com.gfan.sdk.statitistics.l -> com.gfan.a.a.u:
+    android.app.Activity a -> a
+    void run() -> run
+com.gfan.sdk.statitistics.m -> com.gfan.a.a.v:
+    android.database.sqlite.SQLiteDatabase d -> a
+    int e -> b
+    void a(android.content.Context) -> a
+    void a() -> a
+    long a(java.lang.String,long) -> a
+    java.util.List d() -> b
+    long a$1c2b8846(java.lang.String,java.lang.String,long,java.lang.String) -> a
+    java.util.List b(java.lang.String,long) -> b
+    boolean a(java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean a(java.lang.String,java.lang.String) -> a
+    java.util.List c(java.lang.String,long) -> c
+    long a(java.util.List) -> a
+    long e(java.lang.String) -> a
+    long b(java.util.List) -> b
+    long a(long,java.lang.String) -> a
+    java.util.List d(long) -> a
+    java.util.List e$187a7388() -> c
+com.gfan.sdk.statitistics.n -> com.gfan.a.a.w:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    void run() -> run
+com.gfan.sdk.statitistics.o -> com.gfan.a.a.x:
+    void a() -> a
+    void b() -> b
+com.gfan.sdk.statitistics.p -> com.gfan.a.a.y:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    long c -> c
+    java.lang.String d -> d
+com.gfan.sdk.statitistics.q -> com.gfan.a.a.z:
+    android.app.Activity a -> a
+    void run() -> run
+com.gfan.sdk.statitistics.r -> com.gfan.a.a.aa:
+    void a() -> a
+    void b() -> b
+com.gfan.sdk.statitistics.s -> com.gfan.a.a.ab:
+    com.gfan.sdk.statitistics.s a -> a
+    android.content.Context b -> b
+    boolean c -> c
+    boolean d -> d
+    com.gfan.sdk.statitistics.r e -> e
+    android.content.BroadcastReceiver f -> f
+    void a(android.content.Context) -> a
+    boolean b() -> a
+    boolean c() -> b
+com.gfan.sdk.statitistics.v -> com.gfan.a.a.ac:
+    java.lang.String[] g -> a
+    void a(android.database.sqlite.SQLiteDatabase) -> a
+com.gfan.sdk.statitistics.w -> com.gfan.a.a.ad:
+    void handleMessage(android.os.Message) -> handleMessage
+com.gfan.sdk.statitistics.y -> com.gfan.a.a.ae:
+    java.lang.String a -> a
+    java.lang.String b -> b
+com.gfan.sdk.statitistics.z -> com.gfan.a.a.af:
+    java.lang.String[] e -> a
+    void a(android.database.sqlite.SQLiteDatabase) -> a
+com.will.tools.WriteAndReadText -> com.a.a.a:
+    java.lang.String textPath -> a
+    java.lang.String readText(java.lang.String) -> a
+    boolean writeText(java.lang.String,java.lang.String) -> a
+com.willmemo.About -> com.willmemo.About:
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String getAppVersionName(android.content.Context) -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.willmemo.Help -> com.willmemo.Help:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.willmemo.Help$1 -> com.willmemo.a:
+    com.willmemo.Help this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.Itemdata -> com.willmemo.b:
+    java.lang.String memoId -> a
+    android.graphics.Bitmap imagebuffer -> b
+    boolean isSelect -> c
+    long beginDate -> d
+    long endDate -> e
+    java.lang.String text -> f
+com.willmemo.MemoAdapter -> com.willmemo.c:
+    android.content.Context context -> a
+    com.willmemo.Itemdata[] itemdata -> b
+    android.view.LayoutInflater mInflater -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void notifyDataSetChanged(com.willmemo.Itemdata[]) -> a
+    com.willmemo.Itemdata[] access$0(com.willmemo.MemoAdapter) -> a
+    android.content.Context access$1(com.willmemo.MemoAdapter) -> b
+com.willmemo.MemoAdapter$1 -> com.willmemo.d:
+    com.willmemo.MemoAdapter this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.willmemo.MemoAdapter$ViewHolder -> com.willmemo.e:
+    android.widget.TextView importance -> a
+    android.widget.ImageView img -> b
+    android.widget.TextView title -> c
+    android.widget.TextView info -> d
+    android.widget.CheckBox checkbox -> e
+    com.willmemo.MemoAdapter this$0 -> f
+com.willmemo.MemoReceiver -> com.willmemo.MemoReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.willmemo.Memodata -> com.willmemo.f:
+    java.lang.String fileDir -> a
+    boolean createMemo(com.willmemo.Itemdata) -> a
+    com.willmemo.Itemdata[] getMemo() -> a
+    com.willmemo.Itemdata[] rankMemo(com.willmemo.Itemdata[]) -> a
+    boolean deleteMemo(java.lang.String) -> a
+com.willmemo.Memodata$1 -> com.willmemo.g:
+    com.willmemo.Memodata this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.willmemo.PushService -> com.willmemo.PushService:
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+com.willmemo.ScrollLayout -> com.willmemo.ScrollLayout:
+    android.widget.Scroller mScroller -> a
+    android.view.VelocityTracker mVelocityTracker -> b
+    int mCurScreen -> c
+    int mDefaultScreen -> d
+    int mTouchState -> e
+    int mTouchSlop -> f
+    float mLastMotionX -> g
+    float mLastMotionY -> h
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onMeasure(int,int) -> onMeasure
+    void snapToScreen(int) -> a
+    void setToScreen(int) -> setToScreen
+    int getCurScreen() -> getCurScreen
+    void computeScroll() -> computeScroll
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+com.willmemo.Setting -> com.willmemo.Setting:
+    int mHour -> a
+    int mMinute -> b
+    android.preference.Preference TimePreference -> c
+    android.app.TimePickerDialog$OnTimeSetListener mTimeSetListener -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onPreferenceTreeClick(android.preference.PreferenceScreen,android.preference.Preference) -> onPreferenceTreeClick
+    void setNotiyPreferenceIsEnabled(boolean) -> a
+    java.lang.String TimeFormat(int,int) -> a
+    java.lang.String format(int) -> a
+    void access$0(com.willmemo.Setting,int) -> a
+    void access$1(com.willmemo.Setting,int) -> b
+    int access$2(com.willmemo.Setting) -> a
+    int access$3(com.willmemo.Setting) -> b
+    android.preference.Preference access$4(com.willmemo.Setting) -> c
+    java.lang.String access$5(com.willmemo.Setting,int,int) -> a
+com.willmemo.Setting$1 -> com.willmemo.h:
+    com.willmemo.Setting this$0 -> a
+    void onTimeSet(android.widget.TimePicker,int,int) -> onTimeSet
+com.willmemo.Setting$2 -> com.willmemo.i:
+    com.willmemo.Setting this$0 -> a
+    void onDismiss(android.content.DialogInterface) -> onDismiss
+com.willmemo.ShowNotification -> com.willmemo.j:
+    android.content.Context context -> a
+    void showNotification() -> a
+com.willmemo.editmemo -> com.willmemo.editmemo:
+    android.widget.EditText myEditText -> a
+    android.widget.DatePicker myDatePicker -> b
+    android.widget.ImageButton saveAndExitButton -> c
+    android.widget.ImageButton cancelButton -> d
+    android.widget.ImageView myImageView -> e
+    android.graphics.Bitmap bitmap -> f
+    java.lang.String memostate -> g
+    int itemnum -> h
+    int CASE_CAMERA -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void finish() -> finish
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void CreateMemo() -> a
+com.willmemo.editmemo$cancelButtonListener -> com.willmemo.k:
+    com.willmemo.editmemo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.editmemo$myImageViewListener -> com.willmemo.l:
+    com.willmemo.editmemo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.editmemo$saveAndExitButtonListener -> com.willmemo.m:
+    com.willmemo.editmemo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.memoconstant -> com.willmemo.n:
+    java.lang.String[] importenceLevel -> a
+com.willmemo.myAppWidget -> com.willmemo.myAppWidget:
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+    void updateAppWidget(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> a
+com.willmemo.tools -> com.willmemo.o:
+    int getImportance(long,long) -> a
+    java.lang.String getDateString(long,long) -> b
+com.willmemo.willmemo -> com.willmemo.willmemo:
+    android.widget.ListView listview -> a
+    float x -> b
+    float y -> c
+    boolean[] isSelect -> d
+    com.willmemo.Itemdata[] myItemdata -> e
+    com.willmemo.MemoAdapter myMemoAdapter -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void setButtonState(com.willmemo.Itemdata[]) -> a
+    void adapterChanged() -> a
+    void updateAppWidget() -> b
+com.willmemo.willmemo$AddButtonListener -> com.willmemo.p:
+    com.willmemo.willmemo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.willmemo$DeleteButtonListener -> com.willmemo.q:
+    com.willmemo.willmemo this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.willmemo.willmemo$myOnItemClickListener -> com.willmemo.r:
+    com.willmemo.willmemo this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.willmemo.willmemo$myOnItemSelectedListener -> com.willmemo.s:
+    com.willmemo.willmemo this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected

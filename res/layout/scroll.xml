@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.willmemo.ScrollLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollLayoutTest"
+  android:background="#00FFFFFF"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<LinearLayout
+    android:background="@drawable/start_1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+</LinearLayout>
+
+<LinearLayout
+    android:background="@drawable/start_2"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+</LinearLayout>
+<LinearLayout
+	android:background="@drawable/start_3"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+
+	<ImageButton
+	    android:id="@+id/btn_start"
+	    android:background="#00FFFFFF"
+	    android:src="@drawable/start_btn_selector"
+	    android:scaleType="fitXY"
+	    android:layout_width="126dp"
+	    android:layout_height="126dp"
+	    android:layout_gravity="center"/>
+
+</LinearLayout>
+</com.willmemo.ScrollLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Will速记</string>
+    <string name="insert">添加成功</string>
+    <string name="update">更新成功</string>
+    <string name="no_function">未找到相关设备！</string>
+    <string name="time_am">上午</string>
+    <string name="time_pm">下午</string>
+    
+    <string name="notification_1">您有%1$d个过期项需要处理，点击查看</string>
+    <string name="notification_2">您有%1$d个红项、 %2$d个过期项需要处理，点击查看</string>
+    <string name="notification_3">您有%1$d个红项需要处理，点击查看</string>
+    
+    <string name="setting">设置</string> 
+    <string name="setting_notiy_title">提醒</string>
+    <string name="setting_switch_title">通知栏提醒</string>
+    <string name="setting_switch_summary"></string>
+    <string name="setting_time_title">提醒时间</string>
+    <string name="setting_overtime_title">过期项</string>
+	<string name="setting_overtime_summary">是否对过期项进行提醒</string>
+	<string name="setting_help_title">帮助</string>
+	<string name="setting_readme_title">使用手册</string>
+	<string name="setting_about_title">关于</string>
+	<string name="setting_report">反馈</string>
+	
+	<string name="edit_text_hint">轻触进行输入</string>
+	
+	<string name="about_copyright">Copyright ® 2012 Will Team. All Rights Reserved</string>
+    <string name="about_info">Will工作室版权所有</string>
+</resources>

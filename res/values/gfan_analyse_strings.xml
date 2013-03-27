@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="TCEmptyFbNotAllowed">Please input your feedback.</string>
+	<string name="TCFeedbackTitle">Feedback</string>
+	<string name="TCFeedbackConversationTitle">My Feedback</string>
+	<string name="TCFeedbackContactHint">Email or QQ.(optional)</string>
+	<string name="TCFeedbackContentHint">Input your suggestions here</string>
+	<string name="TCFeedbackSubmmit">Submit</string>
+	<string name="TCFeedbackCancel">Cancel</string>
+	<string name="TCDeleteThread">Delete Thread</string>
+	<string name="TCFeedbackAlreadySubmit"> Feedback already submit</string>
+	<string name="TCFeedbackCannotEmpty"> Feedback content can\'t empty!</string>
+</resources>

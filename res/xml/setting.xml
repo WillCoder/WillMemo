@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name">
+        <PreferenceCategory android:title="@string/setting_notiy_title" android:key="setting_notiy">
+            <CheckBoxPreference android:title="@string/setting_switch_title" android:key="setting_switch"/>
+            
+            
+            <Preference android:title="@string/setting_time_title" android:key="setting_time"/><CheckBoxPreference android:title="@string/setting_overtime_title" android:summary="@string/setting_overtime_summary" android:key="setting_overtime"/>
+            
+            
+            
+            
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/setting_help_title" android:key="setting_help">
+            <Preference android:key="setting_readme" android:title="@string/setting_readme_title" /><Preference android:title="@string/setting_about_title" android:key="setting_about"/>
+            <Preference android:key="setting_report" android:title="@string/setting_report"/>
+            
+        </PreferenceCategory>
+    </PreferenceScreen>

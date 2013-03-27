@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.1.0" package="com.willmemo"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="9"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" ></uses-permission >
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+  <!-- youmi ad -->  
+<!--     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"> </uses-permission>  -->
+<!--     <uses-permission android:name="android.permission.READ_PHONE_STATE"> </uses-permission>  -->
+<!--     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"> </uses-permission>  -->
+<!--     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"></uses-permission> -->
+<!--   	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>  -->
+  <!-- youmi ad -->   
+    
+    
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:theme="@style/MyTheme" android:label="@string/app_name" android:name=".willmemo" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.willmemo.REVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/edit_dialog" android:name=".editmemo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.willmemo.EDITMEMO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Setting" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Help" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".About" android:theme="@android:style/Theme.Black.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.gfan.feedback.SendFeedback" android:windowSoftInputMode="adjustResize"></activity>
+          <!-- youmi ad --> 
+<!--         <activity android:name="net.youmi.android.AdActivity"  -->
+<!--             android:configChanges="keyboard|keyboardHidden|orientation"> -->
+<!--         </activity> -->
+          <!-- youmi ad --> 
+        <receiver android:name=".myAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
+        </receiver>
+        <service android:name=".PushService"></service>
+       	<receiver android:name=".MemoReceiver" >
+         	<intent-filter>
+               <action android:name="android.intent.action.BOOT_COMPLETED" />
+               <action android:name="will.memo.ALARM_SERVICE_UPDATE" />
+               <action android:name="will.memo.ALARM_SERVICE_TIMEUP" />
+         	</intent-filter>
+  		</receiver>
+        <meta-data android:name="gfan_statistics_appkey" android:value="5d9c8d0dd99243e5b1eeb16776c89ff4" />
+    </application>
+</manifest>
